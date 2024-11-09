@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.loading{
+    
+    padding: 6px;
+    border-radius: 10px;
+    background-color: yellowgreen;
+    /* color: whitesmoke; */
+    margin: 0 auto;
+    text-transform:capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 250px;
+    font-size: 20px;
+}
+.loading:active{
+    
+    background-color: whitesmoke;
+    color: whitesmoke;
+   
+}
+.searchbox{
+   border: 2px solid whitesmoke;
+   border-radius: 13px;
+   width: 300px;
+    display: flex;
+    padding: 5px;
+    text-transform: capitalize;
+}
+.search{
+    border: none;
+    outline: none;
+    margin-left: 10px;
+   color:black;
+  
+    
+}
+.searchbox:active{
+    border-radius: 20px;
+}
+.movieimg{
+    /* border: 2px solid yellowgreen; */
+}
+.click{
+    background-color: beige;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+}
+.click:active{
+    background-color: yellowgreen;
+}
