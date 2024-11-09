@@ -53,3 +53,23 @@
 .click:active{
     background-color: yellowgreen;
 }
+@media (max-width:760px){
+    .searchbox{
+        border: 2px solid whitesmoke;
+        border-radius: 13px;
+        width: 300px;
+         display: flex;
+         padding: 5px;
+         text-transform: capitalize;
+        width: 200px;
+    }
+    .md{
+        margin-left: 30px;
+    }
+    .small{
+        
+       
+       
+        
+    }
+}

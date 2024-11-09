@@ -33,8 +33,8 @@ const Nav = () => {
       <div className='searchbox'>
 
     
-      <FaSearch  className="mt-1"/>
-        <input type="text" placeholder='movie search'  className="search bg-lime-500"    
+      <FaSearch  className="mt-1 small"/>
+        <input type="text" placeholder='movie search'  className="search bg-lime-500 md"    
           value={Title}
           onChange={(e)=>{
             setTitle(e.target.value)
